@@ -5,7 +5,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #222831;
-    overflow: hidden;
 }
 table{
     border-collapse: collapse;
