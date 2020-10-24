@@ -1,0 +1,20 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    overflow: hidden;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    color: #ececec;
+}
+th{
+    background-color: #30475e;
+}
+td{
+    border-bottom: 1px solid #ddd;
+}
