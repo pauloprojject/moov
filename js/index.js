@@ -4,7 +4,8 @@ let getApi = () =>{
     .then(data => {
         data.results.map(item =>{
             const html = document.querySelector('tbody')
-            html.insertAdjacentHTML('beforeend', `<tr>
+            html.insertAdjacentHTML('beforeend', `
+        <tr>
             <td>
                 ${item.name.first}
             </td>
@@ -25,3 +26,7 @@ let getApi = () =>{
     })
 }
 getApi()
+document.querySelector('#but').addEventListener('click',()=>{
+    document.querySelector('tbody').innerHTML = ''
+    getApi()
+})
